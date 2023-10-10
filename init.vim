@@ -43,14 +43,14 @@ cmap <Space>s <Esc>:w <CR>
 map <Space>c <Esc>:wq <CR>
 nmap <Space>c <Esc>:wq <CR>
 vmap <Space>c <Esc>:wq <CR>
-imap <C-C> <Esc>:wq <CR>
+imap <C-c> <Esc>:wq <CR>
 cmap <Space>c <Esc>:wq <CR>
 
-map <silent> <Space>e :NERDTreeToggle <CR>
-nmap <silent> <Space>e :NERDTreeToggle <CR>
-imap <silent> <Space>e :NERDTreeToggle <CR>
-vmap <silent> <Space>e :NERDTreeToggle <CR>
-cmap <silent> <Space>e :NERDTreeToggle <CR>
+map <silent> <Space>e <Esc>:NERDTreeToggle <CR>
+nmap <silent> <Space>e <Esc>:NERDTreeToggle <CR>
+imap <silent> <Space>e <Esc>:NERDTreeToggle <CR>
+vmap <silent> <C-e> <Esc>:NERDTreeToggle <CR>
+cmap <silent> <Space>e <Esc>:NERDTreeToggle <CR>
 
 map <silent> <C-l> :wincmd l <CR>
 map <silent> <C-k> :wincmd k <CR>
